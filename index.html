@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Test</title>
+        <link href='index.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <!-- SIDEBAR -->
+         <div class='main-container'><!--display: flex-->
+            <div class='header-sidebar-container'>
+                <div id='sidebar' class='sidebar'>
+    
+                    <div class='tag-menu'>
+                        <div id='sidebar-title' ></div>
+                                <img id='tag-image-menu' class='tag-image-menu' src='./images/list.png'/>
+                    </div>
+        
+                    <div class='tag first-tag'>
+                            <div class='tag-and-text-container'>
+                                <img class='tag-image tag-image-home' src='./images/home.png'/>
+                                <div class='tagSidebarTitle' id='tag-home'></div>
+                            </div>
+                    </div>
+        
+                    <div class='tag'>
+                        <div class='tag-and-text-container'>
+                            <img class='tag-image' src='./images/user.png'/>
+                            <div id='tag-user'></div>
+                        </div>
+                    </div>
+
+                    <div class='tag'>
+                            <div class='tag-and-text-container'>
+                                <img class='tag-image' src='./images/group.png'/>
+                                <div id='tag-group'></div>
+                            </div>
+                    </div>
+        
+                    <div class='tag'>
+                            <div class='tag-and-text-container'>
+                                <img class='tag-image' src='./images/product.png'/>
+                                <div id='tag-product'></div>
+                            </div>                        
+                    </div>
+        
+                    <div class='tag'>
+                            <div class='tag-and-text-container'>
+                                <img class='tag-image' src='./images/export.png' />
+                                <div id='tag-export'></div>
+                            </div>
+                    </div>
+        
+                    <div class='tag'>
+                            <div class='tag-and-text-container'>
+                                <img class='tag-image' src='./images/like.png'/>
+                                <div id='tag-like'></div>
+                            </div>
+                    </div>
+        
+                    <div class='tag'>
+                            <div class='tag-and-text-container'>
+                                <img class='tag-image' src='./images/invoice.png'/>
+                                <div id='tag-invoice'></div>
+                            </div>
+                    </div>
+        
+                    <div class='tag'>
+                            <div class='tag-and-text-container'>
+                                <img class='tag-image' src='./images/bar-chart.png'/>
+                                <div id='tag-chart'></div>
+                            </div>
+                    </div>
+        
+                    <div class='tag'>
+                        <a href='#'>
+                            <div class='tag-and-text-container'>
+                                <img class='tag-image' src='./images/chat.png'/>
+                                <div id='tag-chat'></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            <div class='header-and-filter'><!--display: flex; flex-direction: column -->
+                <header>
+                    <div class='left-header'>
+                        <div class='header-logo'>
+                            <img class='as-logo' src='./images/as-logo.jpg'/>
+                        </div>
+                        <div class='courtier-box'>
+                                <img class='image-courtier' src='./images/courtier.png'/>
+                                <div class='courtier-text-box'>
+                                    <h3 class='courtier-name'>CHRISTOPHE ARMANIAC</h3>
+                                    <p class='courtier-caption'>AS du Grand Lyon_Elon</p>
+                                </div>    
+                        </div>
+                    </div>
+                        <div class='right-header'>
+                            <div class='header-sections-container'>
+                                <div class='header-section-2'>
+                                    <button class='btn-2'>PROSPECTS ADP</button>
+                                    <button class='btn-2'>PROSPECTS CHÔMAGE</button>
+                                </div>
+                                <div class='header-section-2'>
+                                    <button class='btn-2'>DEVIS ASSURANCE PRÊT</button>
+                                    <button class='btn-2'>DEVIS ASSURANCE CHÔMAGE</button>
+                                </div>
+                                <div class='header-section-1'>
+                                    <button class='btn-1'>
+                                        <img class='file-btn-image'src='./images/file.png'/>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class='header-contact'>
+                                <p>BESOIN D'AIDE : Votre conseiller au 06 12 34 56 78</p>
+                                <p>Service client : 06 12 34 56 78</p>
+                            </div>
+                        </div> 
+                </header>
+                <div class='filter-section'>
+                    <div class='filter-section-title-container'>
+                         <h2 class='filter-section-title'>Mes prospects</h2>
+                    </div>
+                    <div class='filter-section-2'>
+                     <div class='filter-container-title'>
+                         <p class='filter-title'>FILTRER PARMIS 150 PROSPECTS</p>
+                         </div>
+                        <div class='fitler-container'>
+                            <div class='select-box-2-container'>
+                                 <div class='select-box-2'>
+                                     <select class='select-btn ' >
+                                         <option class='option-text' value='produit'>PRODUITS</option>
+                                     </select>
+                                     <select class='select-btn ' >
+                                         <option class='option-text' value='#'>PROFESSION</option>
+                                     </select>
+                                 </div>
+                                 <div class='select-box-2'>
+                                     <select name='first-select' class='select-btn ' >
+                                         <option class='option-text' value='facturation'>FACTURATION</option>
+                                     </select>
+                                     <select name='first-select' class='select-btn ' >
+                                         <option class='option-text' value='status'>STATUS</option>
+                                     </select>
+                                 </div>
+                                 
+                                 <div class='select-box-2'>
+                                     <select name='second-select' class='select-btn ' >
+                                         <option class='option-text' value='nom'>NOM</option>
+                                     </select>
+                                     <select name='second-select' class='select-btn ' >
+                                         <option class='option-text' value='cp'>CP</option>
+                                     </select>
+                                 </div>
+                            </div>
+                            
+                            <div class='date-filter-box-container'>
+                                <div class='date-filter-2-boxes'>
+                                    <div class='date-filter date-filter-first'>
+                                         <label for='lead' class='date-filter-text'>LEAD</label>
+                                         <input class='input-date' type='date' name='lead' value=''>
+                                         
+                                    </div>
+                                    <div class='date-filter'>
+                                         <label for='lead' class='date-filter-text'>RAPPEL</label>
+                                         <input class='input-date' type='date' name='lead' value=''>
+                                         
+                                     </div>
+                                </div>
+                                <div class='date-filter-2-boxes-2 date-filter-2-boxes'>
+                                     <div class='date-filter'>
+                                         <label for='lead' class='date-filter-text'>AU</label>
+                                         <input class='input-date' type='date' name='lead' value=''>
+                                         
+                                     </div>
+                                     <div class='date-filter'>
+                                         <label for='lead' class='date-filter-text'>AU</label>
+                                         <input class='input-date' type='date' name='lead' value=''>
+                                       
+                                     </div>
+                                 </div>
+                            </div>
+             
+                            <div class='options-box-container'>
+                                <div class='option-box'>
+                                     <p class='option-text'>OPTION_1</p>
+                                     <input type='checkbox' name='option-1' value='#'>
+                                </div>
+                                <div class='option-box'>
+                                     <p class='option-text'>OPTION_2</p>
+                                     <input type='checkbox' name='option-1' value='#'>
+                                 </div>
+                                 <div class='option-box'>
+                                     <p class='option-text'>OPTION_3</p>
+                                     <input type='checkbox' name='option-1' value='#'>
+                                 </div>
+                             </div>
+             
+                             <div class='checkable-filter-container'>
+                                 <div class='checkable-filter-box-2'>
+                                     <button id='test' class='button'>
+                                         RELANCE DU JOUR
+                                     </button>
+                                     <button class='button'>
+                                         RELANCE EN RETARD
+                                     </button>
+                                 </div>
+                                 <div class='checkable-filter-box-2'>
+                                     <button class='button'>
+                                         RAPPEL HEBDO
+                                     </button>
+                                     <button class='button'>
+                                         LEADS DU JOUR
+                                     </button>
+                                 </div>
+                             </div>
+             
+                             <div class='ok-or-not-container'>
+                                 <div class='init-btn-container'>
+                                     <button class='initBtn'>
+                                         RÉINITALISER
+                                     </button>
+                                 </div>
+                                 <div class='filter-btn-container'>
+                                     <button id='filterButton' class='filterBtn'>
+                                         FILTRER
+                                     </button>
+                                 </div>
+                             </div>
+             
+                        </div>
+                    </div>
+                </div>         
+            </div>
+         </div>
+
+         
+    
+            <!-- HEADER -->
+            
+            
+    
+            <!-- FILTER -->
+            <script src='./index.js'></script>
+
+           <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+           <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+         
+           <!-- Charge notre composant React -->
+           <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    </body>
+</html>
