@@ -28,7 +28,7 @@ function closeSidebar(){
     displayBlockMenuTag();
     removeTagSidebar();
     removeBorderBottomToTag(); 
-    sidebar.style.width= '40px'; 
+    sidebar.style.width= '70px'; 
     return sideBarIsClose = true;
 }
 
@@ -95,5 +95,6 @@ function addBorderBottomToTag(){
 
 function removeBorderBottomToTag(){
     tagsArray.forEach(element=> {element.style.width='0px'})
+    tagsArray.forEach(element=> {element.style.margin='0px'})
     tagsArray.forEach(element => {element.classList.remove('test')})
 }
